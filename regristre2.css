@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* parte do fundo */
+body {
+
+  background: linear-gradient(25deg, #e5cdb0 20%, #f3d6c2 40%, #fbf1ea 60%, #efede6 80%, #d7d3c1 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  position: relative;
+
+
+}
+/* fundo tambem */
+.boxmax {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+}
+/* caixa maior */
+.box1 {
+  box-sizing: content-box;
+  background: #efede6;
+  box-shadow: 0 0 3em pink;
+  width: 300px;
+  padding: 1rem 3rem 1rem 3rem;
+
+}
+
+.login {
+  width: 325px;
+  height: 60vh;
+  padding: 35px;
+}
+
+
+#enviar::placeholder {
+  font-size: 14px;
+
+}
+/* cabeçalho */
+.cabelhaco2 {
+  margin-bottom: 8vh;
+  color: #011627;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: #e5cdb0;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: xx-large;
+
+}
+/* formulario */
+#form {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5vh;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #011627;
+}
+
+/* botão de do final de enviar */
+#enviar {
+  border-radius: 10px;
+  border: 2px solid #011627;
+  width: 100%;
+  height: 45px;
+  color: #011627;
+  cursor: pointer;
+}
+
+/* inputs */
+.arearespon {
+  margin-top: 10px;
+
+}
+
+/* seletores de sexo */
+.genero-label {
+  margin-left: 3px;
+  margin-right: 4px;
+}
+
+/* mais um de input mais sem mexer no do final */
+[type="text"],
+[type="email"],
+[type="date"],
+[type="passaword"] {
+  width: 100%;
+  height: 38px;
+  border: 3px solid;
+  border-radius: 8px;
+
+}
+
+
+.arearesp::placeholder {
+  font-size: 14vh;
+
+}
+
+input::placeholder {
+  color: #011627;
+  height: 15vh;
+
+}

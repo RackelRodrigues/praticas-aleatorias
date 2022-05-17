@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/pink.css" media="screen">
+  
+<script type="text/javascript" src="/script.js" ></script>
+  <title>LOGIN</title>
+</head>
+<!-- Parte do fundo a area-login -->
+<body>
+  <section class="area-login">
+
+    <!-- Caixa onde fica as informações de login do usuario -->
+    <div class="login box">
+
+      <!-- Titulo -->
+      <div id="cabecalho">
+        <h1>Faça seu login</h1>
+        <h4>Entre com suas informações de cadastro</h4>
+      </div>
+
+     <!-- Informações de contato -->
+      <form method="post">
+        <label class="titulos">Email:</label>
+        <input type="email" placeholder="Digite seu email" tabindex="2" autofocus>
+
+        <label class="titulos" id="area-senha" >Senha:</label>
+        <input type="password" placeholder="Senha">
+
+        <!-- Nesta parte usei a div para ficar uma caixa separada do esqueci senha -->
+        <div class="lembre">
+
+          <label for="lembrar" class="lembre"><a href="#" class="esq-senha">Esqueci minha senha</a></label>
+        </div>
+
+        <input type="submit" value="Entrar" id="butao_entrar" >
+        <div id="notaccount">
+          <p>Não tem uma conta?<a href="/registre-se.html" id="registre">Registre-se</a></p>
+        </div>
+      </form>
+     
+    </div>
+
+  </section>
+</body>
+
+</html>
